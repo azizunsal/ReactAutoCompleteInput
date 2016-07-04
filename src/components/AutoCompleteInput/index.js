@@ -19,7 +19,7 @@ class AutoCompleteInput extends React.Component {
 		this.handleChange = this.handleChange.bind(this);
 		this.handleItemClick = this.handleItemClick.bind(this);
 		this.handleKeyDown = this.handleKeyDown.bind(this);
-		this.client = new MapboxClient('<Your client id>');
+		this.client = new MapboxClient('pk.eyJ1IjoiYXppenVuc2FsIiwiYSI6ImNpcHYzN3ZuMTAwNGNpNG0ybmZtYWdoM3AifQ.kkPVkAHscObh7jaOxk6Uxw');
 		this.fetchPlaces = debounce(200, this.fetchPlaces);
 	}
 	
