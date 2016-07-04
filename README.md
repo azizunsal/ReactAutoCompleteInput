@@ -13,9 +13,14 @@ I used Mapbox Geocoding as source data. [Mapbox Api](https://www.mapbox.com/api-
 Open `http://localhost:5555/`
 
 
-### Auto suggestion samples
+## Screenshots
 
-![alt text](https://github.com/azizunsal/ReactAutoCompleteInput/blob/master/images/suggest_sample.png "Auto suggestion example")
+### Before Typing
+![alt text](https://github.com/azizunsal/ReactAutoCompleteInput/blob/master/images/initial_state.png "Before typing")
 
-![alt text](https://github.com/azizunsal/ReactAutoCompleteInput/blob/master/images/item_selected.png "An item selected")
+### Suggestions for input
+![alt text](https://github.com/azizunsal/ReactAutoCompleteInput/blob/master/images/suggestions_for_input.png "Auto suggestion example")
+
+### After an item selected
+![alt text](https://github.com/azizunsal/ReactAutoCompleteInput/blob/master/images/suggestions_for_input.png "after_selected")
 
