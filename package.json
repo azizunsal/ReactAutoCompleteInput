@@ -36,8 +36,8 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "mapbox": "^1.0.0-beta1",
     "jquery": "^3.4.1",
+    "mapbox": "^1.0.0-beta10",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "throttle-debounce": "^2.1.0",
