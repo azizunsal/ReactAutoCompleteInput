@@ -1,34 +1,46 @@
 {
-  "name": "AutoCompleteInput",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ReactAutoCompleteInput",
+  "version": "0.0.1",
+  "description": "Auto complete input component with ReactJS and Mapbox.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --progress --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azizunsal/ReactAutoCompleteInput.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aziz Unsal <unsal.aziz@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "jquery": "^3.0.0",
-    "mapbox": "^1.0.0-beta1",
-    "react": "^15.1.0",
-    "react-dom": "^15.1.0",
-    "throttle-debounce": "^1.0.1",
-    "underscore": "^1.8.3"
+  "bugs": {
+    "url": "https://github.com/azizunsal/ReactAutoCompleteInput/issues"
   },
+  "homepage": "https://github.com/azizunsal/ReactAutoCompleteInput#readme",
   "devDependencies": {
-    "babel-core": "^6.9.1",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react": "^6.5.0",
-    "css-loader": "^0.23.1",
-    "node-sass": "^3.8.0",
-    "react-hot-loader": "^1.3.0",
-    "sass-loader": "^3.2.0",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "mapbox": "^1.0.0-beta1",
+    "jquery": "^3.4.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "throttle-debounce": "^2.1.0",
+    "underscore": "^1.9.1"
   }
 }

@@ -1,26 +1,28 @@
-# Auto complete input component with ReactJS
+# Intro
+
+ Auto complete input component with ReactJS and Mapbox.
 
 ## Datasource
 
-I used Mapbox Geocoding as source data. [Mapbox Api](https://www.mapbox.com/api-documentation)
+I used [Mapbox Geocoding API](https://www.mapbox.com/api-documentation) as data source.
 
-### Development
-`npm install`
+## Install & Run the Application
 
-### To Run
-`npm run start`
-
-Open `http://localhost:5555/`
-
-
-
+1. Go into the project folder.
+2. Run `npm install` to download dependencies.
+3. Run `npm start` to start development server.
+4. Open `http://localhost:5555/`
 
 ## Screenshots
 
-#### Before Typing
-![alt text](https://github.com/azizunsal/ReactAutoCompleteInput/blob/master/images/initial_state.png "Before typing")
-#### Suggestions for input
-![alt text](https://github.com/azizunsal/ReactAutoCompleteInput/blob/master/images/suggestions_for_input.png "Auto suggestion example")
-#### After an item selected
-![alt text](https://github.com/azizunsal/ReactAutoCompleteInput/blob/master/images/after_selected.png "after_selected")
+### Initial State of the Component
 
+![alt text](images/initial_state.png "Before typing")
+
+#### Showed Up Suggestions While Entering the Location
+
+![alt text](images/suggestions_for_input.png "Auto suggestion example")
+
+#### After Selection an Item
+
+![alt text](images/after_selected.png "after_selected")

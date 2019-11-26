@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AutoCompleteInputComponent from './layouts/AppLayout/index';
+import AutoCompleteInputComponent from './app/layouts/AppLayout/index';
 
 ReactDOM.render(
-	<AutoCompleteInputComponent />,
-	document.getElementById('app')
+    <AutoCompleteInputComponent />,
+    document.getElementById('app')
 );
