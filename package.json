@@ -36,7 +36,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mapbox": "^1.0.0-beta10",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
